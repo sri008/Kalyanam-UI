@@ -4,7 +4,7 @@ pipeline {
       stage('SCM') {
          steps {
             // Get some code from a GitHub repository
-            git 'https://github.com/sri008/Trading-UI.git'
+            git 'https://github.com/sri008/Kalyanam-UI.git'
          }
       }
       stage('Build') {
