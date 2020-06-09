@@ -11,7 +11,7 @@ pipeline {
          steps {
             sh '''
             npm install
-            ng build --base-href=/matrimony
+            ng build --base-href=/matrimony/
             '''
           }
        }
