@@ -11,6 +11,7 @@ pipeline {
          steps {
             sh '''
             npm install
+            npm run build
             npm audit fix
             ng build --base-href=/matrimony/
             '''
