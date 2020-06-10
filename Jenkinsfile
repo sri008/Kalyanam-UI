@@ -19,7 +19,7 @@ pipeline {
          steps {
             sh '''
             cp -r $WORKSPACE/dist/matrimony /opt/apache-tomcat-9.0.35/webapps
-            curl -u admin:admin http://18.232.53.211:8888/manager/reload?path=/matrimony
+            curl -u admin:admin http://35.170.73.70:8888/manager/reload?path=/matrimony
             '''
          }
       }
